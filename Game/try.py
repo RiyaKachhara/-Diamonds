@@ -178,7 +178,7 @@ def game_loop():
         # Display outcome message after 13th bid
         if bid_count == 13:
             if player_score > computer_score:
-                draw_text("Congratulations you won!", WHITE, WIDTH // 2, HEIGHT // 2)
+                draw_text("Congratulations! You won!", WHITE, WIDTH // 2, HEIGHT // 2)
             elif player_score == computer_score:
                 draw_text("It's a tie!", WHITE, WIDTH // 2, HEIGHT // 2)
             else:
